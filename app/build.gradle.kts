@@ -42,10 +42,10 @@ android {
 }
 
 dependencies {
-    implementation("co.yml:ycharts:2.1.0")
+    implementation("com.github.tehras:charts:0.2.4-alpha") // Updated to the latest version
 
-    implementation("com.google.code.gson:gson:+")
-    implementation("com.squareup.okhttp3:okhttp:+")
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("androidx.navigation:navigation-compose:2.7.5")
     implementation(libs.vico.compose)
     implementation(libs.vico.compose.m2)
